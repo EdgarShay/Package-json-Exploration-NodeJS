@@ -1,0 +1,32 @@
+{
+  "name": "package-json-exploration-nodejs",
+  "version": "1.0.0",
+  "description": "Project exploring the structure and functionality of package.json",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOURUSERNAME/package-json-exploration.git"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "package-json"
+  ],
+  "author": "Edgar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
